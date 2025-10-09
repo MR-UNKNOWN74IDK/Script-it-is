@@ -1,5 +1,5 @@
 local Update = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/pc.lua")))();
-local Alert = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/alert.lua")))();
+local Alert = (loadstring(game:HttpGet("https://gist.githubusercontent.com/MR-UNKNOWN74IDK/9d9fb62a8224584a184ac0cbc9cd7908/raw/898410dd44cf42c276c482be7c7235a0edb5d6a7/alert.luau")))();
 local Library = Update:Window("Blox Fruits");
 local MainTab = Library:Tab("Main", "rbxassetid://10723407389");
 local SettingsTab = Library:Tab("Setting", "rbxassetid://10734950309");
@@ -10148,4 +10148,5 @@ for _, fruitData in pairs(result) do
 	end;
 end;
 Alert:create("Done Loaded!");
+
 
