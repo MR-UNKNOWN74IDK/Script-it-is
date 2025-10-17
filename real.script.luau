@@ -1,3 +1,4 @@
+-- [This script is uploaded by Hrritusmit Das but it may not be made by him]
 local Update = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/pc.lua")))();
 local Alert = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/alert.lua")))();
 local Library = Update:Window("Blox Fruits");
@@ -10148,4 +10149,5 @@ for _, fruitData in pairs(result) do
 	end;
 end;
 Alert:create("Done Loaded!");
+
 
