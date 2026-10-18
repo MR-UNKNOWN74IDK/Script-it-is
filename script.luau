@@ -1,6 +1,6 @@
 -- [This script is uploaded by Hrritusmit Das but it may not be made by him]
-local Update = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/pc.lua")))();
-local Alert = (loadstring(game:HttpGet("https://gist.githubusercontent.com/MR-UNKNOWN74IDK/9d9fb62a8224584a184ac0cbc9cd7908/raw/898410dd44cf42c276c482be7c7235a0edb5d6a7/alert.luau")))();
+local Update = (loadstring(game:HttpGet("https://gist.github.com/MR-UNKNOWN74IDK/660fd23f2b7a91d17ba2c6a6f6584604")))(); --pc.lua
+local Alert = (loadstring(game:HttpGet("https://gist.github.com/MR-UNKNOWN74IDK/9d9fb62a8224584a184ac0cbc9cd7908")))(); --alert.lua
 local Library = Update:Window("Blox Fruits");
 local MainTab = Library:Tab("Main", "rbxassetid://10723407389");
 local SettingsTab = Library:Tab("Setting", "rbxassetid://10734950309");
